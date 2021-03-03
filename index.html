@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniBrosController</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <script src="https://unpkg.com/@open-ayame/ayame-web-sdk@2020.2.1/dist/ayame.min.js"></script>
 </head>
 
 <body style="background-color: black;">
     <video id="remote-video" autoplay playsinline></video>
+    <div>
+        <button id="connect">接続</button>
+        <button id="disconnect">切断</button>
+        <button id="send0">"0"を送信</button>
+        <button id="send1">"1"を送信</button>
+    </div>
 </body>
+<script src="main.js"></script>
+
 </html>
